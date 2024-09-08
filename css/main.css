@@ -15,7 +15,7 @@ nav ul {
 
 ul li a {
       background-color: transparent;
-      color: rgb(44, 42, 42);
+      color: rgb(44, 42, 42); /* preto */
       border: 1px solid blue; /* Define a largura (1px), o estilo (solid), e a cor (blue) */
       padding: 8px; /* Adiciona um pouco de padding para espaçamento interno */
       text-decoration: none; /* Remove o sublinhado dos links */
