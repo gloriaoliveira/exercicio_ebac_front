@@ -1,9 +1,26 @@
 * {
    margin: 0;
    padding: 0;
-   box-sizing: border-box;
 }
 
+nav {
+   margin: 20px 0;
+}
+
+nav ul {
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+}
+
+ul li a {
+      background-color: transparent;
+      color: rgb(44, 42, 42);
+      border: 1px solid blue; /* Define a largura (1px), o estilo (solid), e a cor (blue) */
+      padding: 8px; /* Adiciona um pouco de padding para espaçamento interno */
+      text-decoration: none; /* Remove o sublinhado dos links */
+      margin: 0 8px;
+}
 
 body {
    font-family: Arial, sans-serif;
@@ -16,6 +33,7 @@ section {
    align-items: flex-start;
    gap: 16px;
    flex-direction: column;
+   padding: 32px;
 }
 
 img {
@@ -37,8 +55,11 @@ p {
 }
 
 a {
+   background-color: rgb(43, 136, 43);
+   padding: 12px;
    text-decoration: none;
-   color: blue;
+   font-weight: 500;
+   color: aliceblue;3
 }
 
 .Tecnologia {
@@ -47,4 +68,12 @@ a {
 
 .Entretenimento {
    background-color: rgb(247, 213, 239);
+}
+
+.Esportes {
+   background-color: rgb(247, 213, 213);
+}
+
+.Economia {
+   background-color: rgb(247, 245, 213);
 }
