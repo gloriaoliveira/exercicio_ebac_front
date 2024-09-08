@@ -14,7 +14,7 @@ nav ul {
 }
 
 ul li a {
-      background-color: transparent;
+      background-color: transparent; /* back color */
       color: rgb(44, 42, 42); /* preto */
       border: 1px solid blue; /* Define a largura (1px), o estilo (solid), e a cor (blue) */
       padding: 8px; /* Adiciona um pouco de padding para espaçamento interno */
@@ -59,7 +59,7 @@ a {
    padding: 12px;
    text-decoration: none;
    font-weight: 500;
-   color: aliceblue;3
+   color: aliceblue;
 }
 
 .Tecnologia {
