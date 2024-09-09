@@ -46,7 +46,8 @@ ul li a {
 
 img {
    width: 648px;
-   height: auto;
+   height: 340px;
+   object-fit: cover;
 }
 
 h3 {
