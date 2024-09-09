@@ -17,7 +17,7 @@ section {
 }
 
 article {
-   width: 30%; /* Define dois articles por linha */
+   width: 30%; /* Define tres articles por linha */
    margin-bottom: 32px;
 }
 
@@ -41,8 +41,7 @@ ul li a {
       color: rgb(44, 42, 42); /* preto */
       border: 1px solid blue; /* Define a largura (1px), o estilo (solid), e a cor (blue) */
       padding: 8px; /* Adiciona um pouco de padding para espaçamento interno */
-      text-decoration: none; /* Remove o sublinhado dos links */
-      margin: 0 8px;
+      text-decoration: none; 
 }
 
 img {
@@ -99,4 +98,3 @@ a {
 #tec a {
    background-color: rgb(43, 17, 189);
 }
-
