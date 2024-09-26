@@ -1,0 +1,19 @@
+body{
+   box-sizing: border-box;
+}
+
+.success-msg{
+   background-color: green;
+   color: white;
+   display: block;
+   width: 400px;
+   padding: 8px;
+}
+
+.error-msg{
+   background-color: rgb(128, 0, 0);
+   color: white;
+   display: block;
+   width: 400px;
+   padding: 8px;
+}
